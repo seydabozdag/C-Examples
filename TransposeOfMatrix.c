@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include<stdio.h>
 
 void transposeMatrix(int a[10][10], int b[10][10], int row, int column) {
 
