@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include<stdio.h>
 
 void mergeSorted(int src1[], int src2[], int newArr[], int n1, int n2) {
   
