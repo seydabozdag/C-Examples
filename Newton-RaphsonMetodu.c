@@ -24,13 +24,13 @@ int main()
 
     x = x0;
     x0 = x - F(x) / FT(x);
-    printf("Iterasyon %d: x = %.6lf\n", i + 1, x);
+    printf("Iterasyon %d: x = %.6lf\n", i + 1, x0);
 
     i++;
 
-  } while (fabs(x - x0) > epsilon);
+  } while (fabs(x0 - x) > epsilon);
 
-  printf("\nBulunan kok yaklasik olarak: %.6lf\n", x);
+  printf("\nBulunan kok yaklasik olarak: %.6lf\n", x0);
   printf("Toplam iterasyon sayisi: %d\n", i);
 
   return 0;
