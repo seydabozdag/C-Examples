@@ -21,7 +21,7 @@ int main() {
 
     i++;
 
-    printf("Iterasyon %d:  x = %.4lf\n", i,x1);
+    printf("Iterasyon %d:  x = %.4lf\n", i, x1);
   }
 
   printf("\nBulunan kok yaklasik olarak: %.4lf\n", x1);
