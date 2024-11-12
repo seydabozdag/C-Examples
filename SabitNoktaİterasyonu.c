@@ -2,7 +2,7 @@
 #include<math.h>
 
 double g(double x) {
-  return (pow(x,3) + 1) / 2;
+  return (pow(x, 3) + 1) / 2;
 }
 
 int main() {
