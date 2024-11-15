@@ -60,7 +60,7 @@ int main() {
   for(i = 0; i < n; i++) {
     for(j = 0; j <= n; j++) {
       printf("a[%d][%d] = ", i, j);
-      scanf("%f", &a[i][j]);
+      scanf("%.2f", &a[i][j]);
     }
   }
 
