@@ -33,7 +33,7 @@ int main() {
     i++;
 
     printf("%d. iterasyon: %.4f, %.4f, %.4f\n", i, x1, x2, x3);
-  } while (fabs(x1 - x1_new) > hata || fabs(x2 - x2_new) > hata || fabs(x3 - x3_new));
+  } while (fabs(x1 - x1_new) > hata || fabs(x2 - x2_new) > hata || fabs(x3 - x3_new) > hata);
   
   printf("Yaklasik kok x1: %.4f\n", x1);
   printf("Yaklasik kok x1: %.4f\n", x2);
