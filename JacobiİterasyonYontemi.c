@@ -18,7 +18,7 @@ float f3(float a, float b, float c) {
 int main() {
   float x1 = 0, x2 = 0, x3 = 0, x1_new, x2_new, x3_new; 
   int i = 0;
-  printf("Yonteme basladigimiz nokta: %.4f, %.4f, %.4f\n", x1, x2, x3);
+  printf("Yonteme basladigimiz nokta: (%.4f, %.4f, %.4f)\n", x1, x2, x3);
 
   do
   {
@@ -31,8 +31,8 @@ int main() {
     x3 = f3(x1_new, x2_new, x3_new);
 
     i++;
-    printf("%d. iterasyon: %.4f, %.4f, %.4f\n", i, x1, x2, x3);
-  } while ((fabs(x1 - x1_new) > hata || fabs(x2 - x2_new) > hata || fabs(x3 - x3_new) > hata));
+    printf("%d. iterasyon: (%.4f, %.4f, %.4f)\n", i, x1, x2, x3);
+  } while ((fabs(x1_new - x1) > hata || fabs(x2_new - x2) > hata || fabs(x3_new - x3) > hata));
   
   printf("Yaklasik kok x1: %.4f\n", x1);
   printf("Yaklasik kok x2: %.4f\n", x2);
