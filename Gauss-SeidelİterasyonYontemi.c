@@ -36,8 +36,8 @@ int main() {
   } while (fabs(x1 - x1_new) > hata || fabs(x2 - x2_new) > hata || fabs(x3 - x3_new) > hata);
   
   printf("Yaklasik kok x1: %.4f\n", x1);
-  printf("Yaklasik kok x1: %.4f\n", x2);
-  printf("Yaklasik kok x1: %.4f\n", x3);
+  printf("Yaklasik kok x2: %.4f\n", x2);
+  printf("Yaklasik kok x3: %.4f\n", x3);
   
   return 0;
 }
